@@ -50,7 +50,7 @@
         ]
       },
       "properties": {
-        "title": "Gdańsk"
+        "title": "Gdansk"
       }
     },
     {
@@ -76,7 +76,7 @@
         ]
       },
       "properties": {
-        "title": "Białystok"
+        "title": "Bialystok"
       }
     },
     {
@@ -102,7 +102,7 @@
         ]
       },
       "properties": {
-        "title": "Toruń"
+        "title": "Torun"
       }
     },
     {
@@ -115,7 +115,7 @@
         ]
       },
       "properties": {
-        "title": "Zielona Góra"
+        "title": "Zielona Gora"
       }
     },
     {
@@ -128,7 +128,7 @@
         ]
       },
       "properties": {
-        "title": "Poznań"
+        "title": "Poznan"
       }
     },
     {
@@ -141,7 +141,7 @@
         ]
       },
       "properties": {
-        "title": "Łódź"
+        "title": "Lodz"
       }
     },
     {
@@ -154,7 +154,7 @@
         ]
       },
       "properties": {
-        "title": "Warszawa"
+        "title": "Warsaw"
       }
     },
     {
@@ -180,7 +180,7 @@
         ]
       },
       "properties": {
-        "title": "Kielce, świętokrzyskie"
+        "title": "Kielce"
       }
     },
     {
@@ -193,7 +193,7 @@
         ]
       },
       "properties": {
-        "title": "Wrocław"
+        "title": "Wroclaw"
       }
     },
     {
@@ -253,54 +253,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.266667,
-          52.216667
-        ]
-      },
-      "properties": {
-        "title": "Konin",
-        "marker-color": "#AFEEEE"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          18.083333,
-          51.766667
-        ]
-      },
-      "properties": {
-        "title": "Kalisz",
-        "marker-color": "#AFEEEE"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          15.238333,
-          52.730833
-        ]
-      },
-      "properties": {
-        "title": "Gorzów Wielkopolski",
-        "marker-color": "#AFEEEE"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           19.050788,
           49.825395
         ]
       },
       "properties": {
-        "title": "Bielsko"
+        "title": "Bielsko-Biała"
       }
     },
     {
@@ -313,7 +271,7 @@
         ]
       },
       "properties": {
-        "title": "Kraków"
+        "title": "Cracow"
       }
     },
     {
@@ -326,7 +284,52 @@
         ]
       },
       "properties": {
-        "title": "Rzeszów"
+        "title": "Rzeszow"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.255833,
+          52.209006
+        ]
+      },
+      "properties": {
+        "title": "Konin",
+        "description": "Następne spotkanie: 20 czerwiec 2015",
+        "marker-color": "#AFEEEE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.100864,
+          51.772139
+        ]
+      },
+      "properties": {
+        "title": "Kalisz",
+        "description": "Następne spotkanie: 15 czerwiec 2015",
+        "marker-color": "#AFEEEE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.242497,
+          52.732018
+        ]
+      },
+      "properties": {
+        "title": "Gorzow Wielkopolski",
+        "description": "Następne spotkanie: 16 czerwiec 2015",
+        "marker-color": "#AFEEEE"
       }
     }
   ]
