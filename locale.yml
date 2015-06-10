@@ -37,18 +37,18 @@ pl:
       short: "%d %b"
     month_names:
     -
-    - styczeń
-    - luty
-    - marzec
-    - kwiecień
-    - maj
-    - czerwiec
-    - lipiec
-    - sierpień
-    - wrzesień
-    - październik
-    - listopad
-    - grudzień
+    - stycznia
+    - lutego
+    - marca
+    - kwietnia
+    - maja
+    - czerwca
+    - lipca
+    - sierpnia
+    - września
+    - października
+    - listopada
+    - grudnia
     order:
     - :day
     - :month

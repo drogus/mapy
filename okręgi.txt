@@ -20,6 +20,9 @@ Częstochowa
 Bielsko
 Kraków
 Rzeszów
-Konin	2015/06/20
-Kalisz	2015/06/15
-Gorzów Wielkopolski	2015/06/16
+*Konin
+	Następne spotkanie: 20 czerwca 2015
+*Kalisz
+	Następne spotkanie: 15 czerwca 2015
+*Gorzów Wielkopolski
+	Następne spotkanie: 16 czerwca 2015
