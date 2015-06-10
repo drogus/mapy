@@ -18,7 +18,7 @@ lines = ARGF
 
 coordinates = Hash[ *lines.map { |line|
     location = line[0].sub(/\*/, "")
-    marker_color = if line[0].start_with?('*') then "#AFEEEE" else nil end
+    marker_color = if line[0].start_with?('*') then "rgb(183, 22, 127)" else "rgb(92, 11, 64)" end
     description = markdown.render(line.drop(1).map(&:lstrip).join('\n'))
     Geocoder.search(location + ", Poland").map { |result|
         [result.coordinates.reverse, {
