@@ -12,7 +12,7 @@
       },
       "properties": {
         "title": "Szczecin",
-        "marker-color": "rgb(92, 11, 64)"
+        "marker-color": "#5c0b40"
       }
     },
     {
@@ -26,7 +26,7 @@
       },
       "properties": {
         "title": "Koszalin",
-        "marker-color": "rgb(92, 11, 64)"
+        "marker-color": "#5c0b40"
       }
     },
     {
@@ -40,7 +40,7 @@
       },
       "properties": {
         "title": "Rumia",
-        "marker-color": "rgb(92, 11, 64)"
+        "marker-color": "#5c0b40"
       }
     },
     {
@@ -54,7 +54,7 @@
       },
       "properties": {
         "title": "Gdansk",
-        "marker-color": "rgb(92, 11, 64)"
+        "marker-color": "#5c0b40"
       }
     },
     {
@@ -68,7 +68,7 @@
       },
       "properties": {
         "title": "Olsztyn",
-        "marker-color": "rgb(92, 11, 64)"
+        "marker-color": "#5c0b40"
       }
     },
     {
@@ -82,7 +82,7 @@
       },
       "properties": {
         "title": "Bialystok",
-        "marker-color": "rgb(92, 11, 64)"
+        "marker-color": "#5c0b40"
       }
     },
     {
@@ -96,7 +96,7 @@
       },
       "properties": {
         "title": "Bydgoszcz",
-        "marker-color": "rgb(92, 11, 64)"
+        "marker-color": "#5c0b40"
       }
     },
     {
@@ -110,7 +110,7 @@
       },
       "properties": {
         "title": "Torun",
-        "marker-color": "rgb(92, 11, 64)"
+        "marker-color": "#5c0b40"
       }
     },
     {
@@ -124,7 +124,7 @@
       },
       "properties": {
         "title": "Zielona Gora",
-        "marker-color": "rgb(92, 11, 64)"
+        "marker-color": "#5c0b40"
       }
     },
     {
@@ -138,7 +138,7 @@
       },
       "properties": {
         "title": "Poznan",
-        "marker-color": "rgb(92, 11, 64)"
+        "marker-color": "#5c0b40"
       }
     },
     {
@@ -152,7 +152,7 @@
       },
       "properties": {
         "title": "Lodz",
-        "marker-color": "rgb(92, 11, 64)"
+        "marker-color": "#5c0b40"
       }
     },
     {
@@ -166,7 +166,7 @@
       },
       "properties": {
         "title": "Warsaw",
-        "marker-color": "rgb(92, 11, 64)"
+        "marker-color": "#5c0b40"
       }
     },
     {
@@ -180,7 +180,7 @@
       },
       "properties": {
         "title": "Lublin",
-        "marker-color": "rgb(92, 11, 64)"
+        "marker-color": "#5c0b40"
       }
     },
     {
@@ -194,7 +194,7 @@
       },
       "properties": {
         "title": "Kielce",
-        "marker-color": "rgb(92, 11, 64)"
+        "marker-color": "#5c0b40"
       }
     },
     {
@@ -208,7 +208,7 @@
       },
       "properties": {
         "title": "Wroclaw",
-        "marker-color": "rgb(92, 11, 64)"
+        "marker-color": "#5c0b40"
       }
     },
     {
@@ -222,7 +222,7 @@
       },
       "properties": {
         "title": "Opole",
-        "marker-color": "rgb(92, 11, 64)"
+        "marker-color": "#5c0b40"
       }
     },
     {
@@ -236,7 +236,7 @@
       },
       "properties": {
         "title": "Katowice",
-        "marker-color": "rgb(92, 11, 64)"
+        "marker-color": "#5c0b40"
       }
     },
     {
@@ -250,7 +250,7 @@
       },
       "properties": {
         "title": "Zabrze",
-        "marker-color": "rgb(92, 11, 64)"
+        "marker-color": "#5c0b40"
       }
     },
     {
@@ -264,7 +264,7 @@
       },
       "properties": {
         "title": "Częstochowa",
-        "marker-color": "rgb(92, 11, 64)"
+        "marker-color": "#5c0b40"
       }
     },
     {
@@ -278,7 +278,7 @@
       },
       "properties": {
         "title": "Bielsko-Biała",
-        "marker-color": "rgb(92, 11, 64)"
+        "marker-color": "#5c0b40"
       }
     },
     {
@@ -292,7 +292,7 @@
       },
       "properties": {
         "title": "Cracow",
-        "marker-color": "rgb(92, 11, 64)"
+        "marker-color": "#5c0b40"
       }
     },
     {
@@ -306,7 +306,7 @@
       },
       "properties": {
         "title": "Rzeszow",
-        "marker-color": "rgb(92, 11, 64)"
+        "marker-color": "#5c0b40"
       }
     },
     {
@@ -321,7 +321,7 @@
       "properties": {
         "title": "Konin",
         "description": "<p>Następne spotkanie: 20 czerwca 2015</p>\n",
-        "marker-color": "rgb(183, 22, 127)"
+        "marker-color": "#b7167f"
       }
     },
     {
@@ -336,7 +336,7 @@
       "properties": {
         "title": "Kalisz",
         "description": "<p>Następne spotkanie: 15 czerwca 2015</p>\n",
-        "marker-color": "rgb(183, 22, 127)"
+        "marker-color": "#b7167f"
       }
     },
     {
@@ -351,7 +351,7 @@
       "properties": {
         "title": "Gorzow Wielkopolski",
         "description": "<p>Następne spotkanie: 16 czerwca 2015</p>\n",
-        "marker-color": "rgb(183, 22, 127)"
+        "marker-color": "#b7167f"
       }
     }
   ]
