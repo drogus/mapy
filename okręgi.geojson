@@ -298,7 +298,7 @@
       },
       "properties": {
         "title": "Konin",
-        "description": "Następne spotkanie: 20 czerwca 2015",
+        "description": "<p>Następne spotkanie: 20 czerwca 2015</p>\n",
         "marker-color": "#AFEEEE"
       }
     },
@@ -313,7 +313,7 @@
       },
       "properties": {
         "title": "Kalisz",
-        "description": "Następne spotkanie: 15 czerwca 2015",
+        "description": "<p>Następne spotkanie: 15 czerwca 2015</p>\n",
         "marker-color": "#AFEEEE"
       }
     },
@@ -328,7 +328,7 @@
       },
       "properties": {
         "title": "Gorzow Wielkopolski",
-        "description": "Następne spotkanie: 16 czerwca 2015",
+        "description": "<p>Następne spotkanie: 16 czerwca 2015</p>\n",
         "marker-color": "#AFEEEE"
       }
     }
