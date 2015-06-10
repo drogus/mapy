@@ -11,16 +11,17 @@ Geocoder.configure(:lookup => :yandex)
 markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML)
 
 lines = ARGF
-    .lines
+    .each_line
     .map(&:rstrip)
     .slice_when { |before, after| !after.match(/^\s/) }
     .to_a
 
 coordinates = Hash[ *lines.map { |line|
-    location = line[0].sub(/\*/, "")
+    city, country = line[0].sub(/\*/, "").split(',').map(&:strip)
+    country ||= 'Poland'
     marker_color = if line[0].start_with?('*') then "#b7167f" else "#5c0b40" end
     description = markdown.render(line.drop(1).map(&:lstrip).join('\n'))
-    Geocoder.search(location + ", Poland").map { |result|
+    Geocoder.search([city, country].join(', ')).map { |result|
         [result.coordinates.reverse, {
             :title => result.city,
             :description => if description.empty? then nil else description end,

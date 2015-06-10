@@ -353,6 +353,21 @@
         "description": "<p>Następne spotkanie: 16 czerwca 2015</p>\n",
         "marker-color": "#b7167f"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.376975,
+          52.516067
+        ]
+      },
+      "properties": {
+        "title": "Berlin",
+        "description": "<p>Następne spotkanie: 13 czerwca 2015</p>\n",
+        "marker-color": "#AFEEEE"
+      }
     }
   ]
 }
