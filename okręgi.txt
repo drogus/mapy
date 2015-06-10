@@ -20,3 +20,6 @@ Częstochowa
 Bielsko
 Kraków
 Rzeszów
+Konin	2015/06/20
+Kalisz	2015/06/15
+Gorzów Wielkopolski	2015/06/16
