@@ -11,7 +11,7 @@ Geocoder.configure(:lookup => :yandex)
 markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML)
 
 lines = ARGF
-    .lines
+    .each_line
     .map(&:rstrip)
     .slice_when { |before, after| !after.match(/^\s/) }
     .to_a
