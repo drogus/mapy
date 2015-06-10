@@ -389,6 +389,48 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          2.351667,
+          48.856667
+        ]
+        },
+      "properties": {
+        "title": "Paryż",
+        "marker-color": "#5c0b40"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.11832,
+          51.50939
+        ]
+        },
+      "properties": {
+        "title": "Londyn",
+        "marker-color": "#5c0b40"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.216667,
+          55.95
+        ]
+        },
+      "properties": {
+        "title": "Edynburg",
+        "marker-color": "#5c0b40"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           13.376975,
           52.516067
         ]
