@@ -53,7 +53,7 @@
         ]
       },
       "properties": {
-        "title": "Gdansk",
+        "title": "Gdańsk",
         "marker-color": "#5c0b40"
       }
     },
@@ -81,7 +81,7 @@
         ]
       },
       "properties": {
-        "title": "Bialystok",
+        "title": "Białystok",
         "marker-color": "#5c0b40"
       }
     },
@@ -109,8 +109,9 @@
         ]
       },
       "properties": {
-        "title": "Torun",
-        "marker-color": "#5c0b40"
+        "title": "Toruń",
+        "description": "<p>Pierwsze spotkanie: 14 czerwca 2015</p>\n",
+        "marker-color": "#b7167f"
       }
     },
     {
@@ -123,7 +124,7 @@
         ]
       },
       "properties": {
-        "title": "Zielona Gora",
+        "title": "Zielona Góra",
         "marker-color": "#5c0b40"
       }
     },
@@ -137,7 +138,8 @@
         ]
       },
       "properties": {
-        "title": "Poznan",
+        "title": "Poznań",
+        "description": "<p>Następne spotkanie: 16 czerwca 2015</p>\n",
         "marker-color": "#5c0b40"
       }
     },
@@ -151,7 +153,7 @@
         ]
       },
       "properties": {
-        "title": "Lodz",
+        "title": "Łódź",
         "marker-color": "#5c0b40"
       }
     },
@@ -165,7 +167,7 @@
         ]
       },
       "properties": {
-        "title": "Warsaw",
+        "title": "Warszawa",
         "marker-color": "#5c0b40"
       }
     },
@@ -207,7 +209,7 @@
         ]
       },
       "properties": {
-        "title": "Wroclaw",
+        "title": "Wrocław",
         "marker-color": "#5c0b40"
       }
     },
@@ -291,7 +293,7 @@
         ]
       },
       "properties": {
-        "title": "Cracow",
+        "title": "Kraków",
         "marker-color": "#5c0b40"
       }
     },
@@ -305,7 +307,7 @@
         ]
       },
       "properties": {
-        "title": "Rzeszow",
+        "title": "Rzeszów",
         "marker-color": "#5c0b40"
       }
     },
@@ -320,7 +322,7 @@
       },
       "properties": {
         "title": "Konin",
-        "description": "<p>Następne spotkanie: 20 czerwca 2015</p>\n",
+        "description": "<p>Pierwsze spotkanie: 20 czerwca 2015</p>\n",
         "marker-color": "#b7167f"
       }
     },
@@ -335,7 +337,7 @@
       },
       "properties": {
         "title": "Kalisz",
-        "description": "<p>Następne spotkanie: 15 czerwca 2015</p>\n",
+        "description": "<p>Pierwsze spotkanie: 15 czerwca 2015</p>\n",
         "marker-color": "#b7167f"
       }
     },
@@ -349,8 +351,36 @@
         ]
       },
       "properties": {
-        "title": "Gorzow Wielkopolski",
-        "description": "<p>Następne spotkanie: 16 czerwca 2015</p>\n",
+        "title": "Gorzów Wielkopolski",
+        "description": "<p>Pierwsze spotkanie: 16 czerwca 2015</p>\n",
+        "marker-color": "#b7167f"
+      }
+    },
+        {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.633333,
+          49.75
+        ]
+        },
+      "properties": {
+        "title": "Cieszyn",
+        "marker-color": "#b7167f"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.545,
+          50.098611
+        ]
+        },
+      "properties": {
+        "title": "Rybnik",
         "marker-color": "#b7167f"
       }
     },
@@ -366,7 +396,7 @@
       "properties": {
         "title": "Berlin",
         "description": "<p>Następne spotkanie: 13 czerwca 2015</p>\n",
-        "marker-color": "#b7167f"
+        "marker-color": "#5c0b40"
       }
     }
   ]
