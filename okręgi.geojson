@@ -6,8 +6,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.555483,
-          53.425206
+          14.55620002746582,
+          53.425201416015625
         ]
       },
       "properties": {
@@ -20,8 +20,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.182395,
-          54.190499
+          16.196300506591797,
+          54.190399169921875
         ]
       },
       "properties": {
@@ -34,8 +34,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.388738,
-          54.568677
+          18.377099990844727,
+          54.585601806640625
         ]
       },
       "properties": {
@@ -48,8 +48,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.651181,
-          54.35314
+          18.625,
+          54.32889938354492
         ]
       },
       "properties": {
@@ -62,8 +62,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.480205,
-          53.778745
+          20.514699935913086,
+          53.773799896240234
         ]
       },
       "properties": {
@@ -76,8 +76,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          23.18267,
-          53.140088
+          23.134000778198242,
+          53.10960006713867
         ]
       },
       "properties": {
@@ -90,8 +90,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.007916,
-          53.119297
+          18.02750015258789,
+          53.13349914550781
         ]
       },
       "properties": {
@@ -104,14 +104,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.612742,
-          53.012759
+          18.580699920654297,
+          53.029598236083984
         ]
       },
       "properties": {
         "title": "Toruń",
-        "description": "<p>Pierwsze spotkanie: 14 czerwca 2015</p>\n",
-        "marker-color": "#b7167f"
+        "marker-color": "#5c0b40"
       }
     },
     {
@@ -119,8 +118,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.512827,
-          51.942517
+          15.486499786376953,
+          51.93949890136719
         ]
       },
       "properties": {
@@ -133,8 +132,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.938274,
-          52.409467
+          16.855756759643555,
+          52.35572814941406
         ]
       },
       "properties": {
@@ -148,8 +147,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          19.474865,
-          51.772307
+          19.468399047851562,
+          51.788299560546875
         ]
       },
       "properties": {
@@ -162,12 +161,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.00625,
-          52.228747
+          21.006250381469727,
+          52.2287483215332
         ]
       },
       "properties": {
-        "title": "Warszawa",
+        "title": "Warsaw",
         "marker-color": "#5c0b40"
       }
     },
@@ -176,8 +175,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.565967,
-          51.247835
+          22.551599502563477,
+          51.25339889526367
         ]
       },
       "properties": {
@@ -190,8 +189,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.623639,
-          50.87725
+          20.65850067138672,
+          50.8922004699707
         ]
       },
       "properties": {
@@ -204,8 +203,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.026901,
-          51.108249
+          17.042999267578125,
+          51.11069869995117
         ]
       },
       "properties": {
@@ -218,8 +217,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.930104,
-          50.663397
+          17.947200775146484,
+          50.67839813232422
         ]
       },
       "properties": {
@@ -232,8 +231,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          19.030944,
-          50.256086
+          19.03095054626465,
+          50.25608825683594
         ]
       },
       "properties": {
@@ -246,8 +245,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.785318,
-          50.324738
+          18.75510025024414,
+          50.30569839477539
         ]
       },
       "properties": {
@@ -260,8 +259,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          19.094311,
-          50.816437
+          19.09432029724121,
+          50.81644058227539
         ]
       },
       "properties": {
@@ -274,8 +273,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          19.050788,
-          49.825395
+          19.050790786743164,
+          49.825401306152344
         ]
       },
       "properties": {
@@ -288,12 +287,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          19.932412,
-          50.06045
+          20.035900115966797,
+          50.07339859008789
         ]
       },
       "properties": {
-        "title": "Kraków",
+        "title": "Cracow",
         "marker-color": "#5c0b40"
       }
     },
@@ -302,8 +301,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          22.009165,
-          50.039667
+          22.017200469970703,
+          50.023399353027344
         ]
       },
       "properties": {
@@ -316,13 +315,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.255833,
-          52.209006
+          18.272300720214844,
+          52.22850036621094
         ]
       },
       "properties": {
         "title": "Konin",
-        "description": "<p>Pierwsze spotkanie: 20 czerwca 2015</p>\n",
+        "description": "<p>Następne spotkanie: 20 czerwca 2015</p>\n",
         "marker-color": "#b7167f"
       }
     },
@@ -331,13 +330,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.100864,
-          51.772139
+          18.139799118041992,
+          51.747398376464844
         ]
       },
       "properties": {
         "title": "Kalisz",
-        "description": "<p>Pierwsze spotkanie: 15 czerwca 2015</p>\n",
+        "description": "<p>Następne spotkanie: 15 czerwca 2015</p>\n",
         "marker-color": "#b7167f"
       }
     },
@@ -346,27 +345,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.242497,
-          52.732018
+          15.179100036621094,
+          52.72019958496094
         ]
       },
       "properties": {
         "title": "Gorzów Wielkopolski",
-        "description": "<p>Pierwsze spotkanie: 16 czerwca 2015</p>\n",
-        "marker-color": "#b7167f"
-      }
-    },
-        {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          18.633333,
-          49.75
-        ]
-        },
-      "properties": {
-        "title": "Cieszyn",
+        "description": "<p>Następne spotkanie: 16 czerwca 2015</p>\n",
         "marker-color": "#b7167f"
       }
     },
@@ -375,69 +360,82 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.545,
-          50.098611
-        ]
-        },
-      "properties": {
-        "title": "Rybnik",
-        "marker-color": "#b7167f"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.351667,
-          48.856667
-        ]
-        },
-      "properties": {
-        "title": "Paryż",
-        "marker-color": "#5c0b40"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -0.11832,
-          51.50939
-        ]
-        },
-      "properties": {
-        "title": "Londyn",
-        "marker-color": "#5c0b40"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -3.216667,
-          55.95
-        ]
-        },
-      "properties": {
-        "title": "Edynburg",
-        "marker-color": "#5c0b40"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.376975,
-          52.516067
+          13.402328491210938,
+          52.501407623291016
         ]
       },
       "properties": {
-        "title": "Berlin",
         "description": "<p>Następne spotkanie: 13 czerwca 2015</p>\n",
+        "marker-color": "#5c0b40"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.53274917602539,
+          50.08982849121094
+        ]
+      },
+      "properties": {
+        "title": "Rybnik",
+        "marker-color": "#5c0b40"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.46493911743164,
+          50.81867980957031
+        ]
+      },
+      "properties": {
+        "title": "Cieszyn",
+        "marker-color": "#5c0b40"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.12721000611782074,
+          51.50642013549805
+        ]
+      },
+      "properties": {
+        "title": "London",
+        "marker-color": "#5c0b40"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.2027699947357178,
+          55.95415115356445
+        ]
+      },
+      "properties": {
+        "title": "Edinburgh",
+        "marker-color": "#5c0b40"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.341200113296509,
+          48.856929779052734
+        ]
+      },
+      "properties": {
+        "title": "Paris",
         "marker-color": "#5c0b40"
       }
     }

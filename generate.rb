@@ -6,7 +6,13 @@ I18n.available_locales = [:pl]
 I18n.locale = :pl
 I18n.load_path += ['./locale.yml']
 
-Geocoder.configure(:lookup => :yandex)
+config = if ENV.has_key?('BING_API_KEY')
+    { :lookup => :bing, :api_key => ENV['BING_API_KEY'] }
+else
+    { :lookup => :yandex }
+end
+
+Geocoder.configure(config)
 
 markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML)
 
