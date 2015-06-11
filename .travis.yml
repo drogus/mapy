@@ -1,6 +1,6 @@
 language: ruby
 rvm: 2.2.2
-script: ruby generate.rb < okręgi.txt > okręgi.geojson
+script: ruby generate.rb < okręgi.txt > nowe_okręgi.geojson
 branches:
   only:
   - master
@@ -10,7 +10,8 @@ before_script:
 - git remote set-url origin https://${GH_TOKEN}:@github.com/${TRAVIS_REPO_SLUG}.git
 after_success:
 - git fetch origin gh-pages
-- git reset --hard FETCH_HEAD
+- git checkout --ours FETCH_HEAD
+- mv nowe_okręgi.geojson okręgi.geojson
 - git add okręgi.geojson
 - git commit -m "Aktualizacja okręgi.geojson"
 - git push origin HEAD@{0}:gh-pages
