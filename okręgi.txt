@@ -8,6 +8,7 @@ Bydgoszcz
 Toruń
 Zielona Góra
 Poznań
+	Następne spotkanie: 16 czerwca 2015
 Łódź
 Warszawa
 Lublin
@@ -26,5 +27,10 @@ Rzeszów
 	Następne spotkanie: 15 czerwca 2015
 *Gorzów Wielkopolski*
 	Następne spotkanie: 16 czerwca 2015
-*Berlin, Germany*
+Berlin, Germany
 	Następne spotkanie: 13 czerwca 2015
+Rybnik
+Cieszyn
+London, England
+Edinburgh, Scotland
+Paris, France
