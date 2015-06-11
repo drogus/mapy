@@ -4,10 +4,9 @@ script: ruby generate.rb < okręgi.txt > nowe_okręgi.geojson
 branches:
   only:
   - master
-before_install:
+before_script:
 - sudo apt-get update -qq
 - sudo apt-get install -y libproj-dev proj-data
-before_script:
 - git config user.email "travis@travis-ci.org"
 - git config user.name "Travis CI"
 - git remote set-url origin https://${GH_TOKEN}:@github.com/${TRAVIS_REPO_SLUG}.git
