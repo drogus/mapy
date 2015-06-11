@@ -3,6 +3,8 @@ rvm: 2.2.2
 
 script: ruby generate.rb < okregi.txt > okregi.geojson
 
+sudo: false
+
 deploy:
   provider: s3
   access_key_id: $S3_ACCESS_KEY_ID
