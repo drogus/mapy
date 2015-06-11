@@ -13,3 +13,4 @@ deploy:
   bucket: $S3_BUCKET
   skip_cleanup: true
   local_dir: output
+  acl: public_read
