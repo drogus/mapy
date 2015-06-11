@@ -1,24 +1,30 @@
 language: ruby
 rvm: 2.2.2
-script: ruby generate.rb < okręgi.txt > nowe_okręgi.geojson
+
 branches:
   only:
   - master
+
 before_install:
-- sudo apt-get update -qq
-- sudo apt-get install -y libproj-dev proj-data
+  - sudo apt-get update -qq
+  - sudo apt-get install -y libproj-dev proj-data
+
 before_script:
-- git config user.email "travis@travis-ci.org"
-- git config user.name "Travis CI"
-- git remote set-url origin https://${GH_TOKEN}:@github.com/${TRAVIS_REPO_SLUG}.git
+  - git config user.email "travis@travis-ci.org"
+  - git config user.name "Travis CI"
+  - git remote set-url origin https://${GH_TOKEN}:@github.com/${TRAVIS_REPO_SLUG}.git
+
+script: ruby generate.rb < okręgi.txt > nowe_okręgi.geojson
+
 after_success:
-- git fetch origin gh-pages
-- git checkout FETCH_HEAD
-- mv nowe_okręgi.geojson okręgi.geojson
-- git add okręgi.geojson
-- git commit -m "Aktualizacja okręgi.geojson"
-- git push origin HEAD@{0}:gh-pages
+  - git fetch origin gh-pages
+  - git checkout FETCH_HEAD
+  - mv nowe_okręgi.geojson okręgi.geojson
+  - git add okręgi.geojson
+  - git commit -m "Aktualizacja okręgi.geojson"
+  - git push origin HEAD@{0}:gh-pages
+
 env:
   global:
-  - secure: pZRrHyU/H63kZDh6GsVH6Ns7tW6AB10iZO/COdGULILjkiTWtbT1zVjY22xIu0Wgx2GYXA8Rejs8h4u980yC7FxwEfZZfKcoQzNdI6oaGUisiY7jKmdMOBnJzxlSbt4nFxgymRdc6Qqpo9ZO08eRRmC8x9Mel2pBsiNIOQR3OqAfo2MlTLCqGjBb3DI1Rr4Sm77Stz2vpH3mqX6nHQSi42JycA4fXOkUZM4RlzfjwF08iIm+CWQfZqh9g0gwCjcR3V5LhT5+mNk1JsaZDzWl6EayPI6nJEYkLK8xKzh0f3/Si+X+mby//kB4nTTLUFiuIkC2xIfjnEpKmQJ9Z3x5SDWIxSJPvPntCc1OOAoBodC8QJsBtPFrZinTlfcRSK8bc7pT8Fde3ePIAv4oCmA5AXUD64s4z0xpPepad2aHptXKj4SY0mm7OL5F2SqVk7F5BuxJvceSNpvgLywtT6GqrEmv/k8Omzj6dqFA/vwAQHC/IkMf6/aJdgYEB3q+QSUJDeZEBEfvswd2qE55e0PJebFrpQwjjEsYOqXqJZ8+uj3vC5DnPzSjV06eTUoE2yzBN2F3RmG+dpiqV4WvWc0a+kvSFHXkiXLSUQh0aR9P2DGewTDba/nRzahjtgqIjpG6GOcyoCf9b2QQ5Y+3a8cIB7X47MKoS7ANc1d8IbFjOiA=
-  - secure: alDSvn7LG0rvVtmwKYwUKwDEfzmyYfbcTvuuykjygjlTvjrLEO80c5J46Hs7IZl3WtcinNVlu6GyKOEXFSKrTOb9xWo3diGYdBLRbRNVehEViEz0ToJJ5pqzIQT59BzQFYZcNXUXhE3cU6XcdQ/gGq8Sa+i7qSnNmI4mmXK3FwruSuG8u/aVSdJQpixMLKM6dlFslTV+iqpEcTHqlPSSdMlgihem9E70jrsQXkFVIPSIg4whlgrebNF+jJM3FGXssa1xtrS4U6mGuMd0cv8Zz2ujhndJDeoVsj6ISV4mPBJvg+RcZyaskFW4+df8Gog03ehOd+jekzwRR50ETJ7V/BTBpjBoO9M5aizokas8XG7fZWmphrRrrQb2NYGc2QyA2K2JFikeb4wV/6UReki78s3hI+lai62pIp43ZM08hjB+Tswj1CX4WNEgT1u/+4Plk+tx+APPblRC/2CAjk4cO5s1IPnI6GI40OjEwFERDfhN+GpUY92OAa7f54vcU+xWSKqWwJsb07yqUv/kniakfYMxS6TZae96qSe2ZbFOf+sjYfuwNAffWrHh0kyCq1UbCSlV87mmpmMWe3kRKo5U9xaYH4d/CmOzG+BlYi6ljzuwdmjviPzaxbzqImX4Yiq9J/a2gFbkwZmyIbAXQGVls+ARvpEFXGLoCOuVBG4+2Rg=
+    - secure: pZRrHyU/H63kZDh6GsVH6Ns7tW6AB10iZO/COdGULILjkiTWtbT1zVjY22xIu0Wgx2GYXA8Rejs8h4u980yC7FxwEfZZfKcoQzNdI6oaGUisiY7jKmdMOBnJzxlSbt4nFxgymRdc6Qqpo9ZO08eRRmC8x9Mel2pBsiNIOQR3OqAfo2MlTLCqGjBb3DI1Rr4Sm77Stz2vpH3mqX6nHQSi42JycA4fXOkUZM4RlzfjwF08iIm+CWQfZqh9g0gwCjcR3V5LhT5+mNk1JsaZDzWl6EayPI6nJEYkLK8xKzh0f3/Si+X+mby//kB4nTTLUFiuIkC2xIfjnEpKmQJ9Z3x5SDWIxSJPvPntCc1OOAoBodC8QJsBtPFrZinTlfcRSK8bc7pT8Fde3ePIAv4oCmA5AXUD64s4z0xpPepad2aHptXKj4SY0mm7OL5F2SqVk7F5BuxJvceSNpvgLywtT6GqrEmv/k8Omzj6dqFA/vwAQHC/IkMf6/aJdgYEB3q+QSUJDeZEBEfvswd2qE55e0PJebFrpQwjjEsYOqXqJZ8+uj3vC5DnPzSjV06eTUoE2yzBN2F3RmG+dpiqV4WvWc0a+kvSFHXkiXLSUQh0aR9P2DGewTDba/nRzahjtgqIjpG6GOcyoCf9b2QQ5Y+3a8cIB7X47MKoS7ANc1d8IbFjOiA=
+    - secure: alDSvn7LG0rvVtmwKYwUKwDEfzmyYfbcTvuuykjygjlTvjrLEO80c5J46Hs7IZl3WtcinNVlu6GyKOEXFSKrTOb9xWo3diGYdBLRbRNVehEViEz0ToJJ5pqzIQT59BzQFYZcNXUXhE3cU6XcdQ/gGq8Sa+i7qSnNmI4mmXK3FwruSuG8u/aVSdJQpixMLKM6dlFslTV+iqpEcTHqlPSSdMlgihem9E70jrsQXkFVIPSIg4whlgrebNF+jJM3FGXssa1xtrS4U6mGuMd0cv8Zz2ujhndJDeoVsj6ISV4mPBJvg+RcZyaskFW4+df8Gog03ehOd+jekzwRR50ETJ7V/BTBpjBoO9M5aizokas8XG7fZWmphrRrrQb2NYGc2QyA2K2JFikeb4wV/6UReki78s3hI+lai62pIp43ZM08hjB+Tswj1CX4WNEgT1u/+4Plk+tx+APPblRC/2CAjk4cO5s1IPnI6GI40OjEwFERDfhN+GpUY92OAa7f54vcU+xWSKqWwJsb07yqUv/kniakfYMxS6TZae96qSe2ZbFOf+sjYfuwNAffWrHh0kyCq1UbCSlV87mmpmMWe3kRKo5U9xaYH4d/CmOzG+BlYi6ljzuwdmjviPzaxbzqImX4Yiq9J/a2gFbkwZmyIbAXQGVls+ARvpEFXGLoCOuVBG4+2Rg=
