@@ -13,7 +13,7 @@ after_success:
 - git reset --hard FETCH_HEAD
 - git add okręgi.geojson
 - git commit -m "Aktualizacja okręgi.geojson"
-- git push origin HEAD:gh-pages
+- git push origin HEAD@{0}:gh-pages
 env:
   global:
   - secure: pZRrHyU/H63kZDh6GsVH6Ns7tW6AB10iZO/COdGULILjkiTWtbT1zVjY22xIu0Wgx2GYXA8Rejs8h4u980yC7FxwEfZZfKcoQzNdI6oaGUisiY7jKmdMOBnJzxlSbt4nFxgymRdc6Qqpo9ZO08eRRmC8x9Mel2pBsiNIOQR3OqAfo2MlTLCqGjBb3DI1Rr4Sm77Stz2vpH3mqX6nHQSi42JycA4fXOkUZM4RlzfjwF08iIm+CWQfZqh9g0gwCjcR3V5LhT5+mNk1JsaZDzWl6EayPI6nJEYkLK8xKzh0f3/Si+X+mby//kB4nTTLUFiuIkC2xIfjnEpKmQJ9Z3x5SDWIxSJPvPntCc1OOAoBodC8QJsBtPFrZinTlfcRSK8bc7pT8Fde3ePIAv4oCmA5AXUD64s4z0xpPepad2aHptXKj4SY0mm7OL5F2SqVk7F5BuxJvceSNpvgLywtT6GqrEmv/k8Omzj6dqFA/vwAQHC/IkMf6/aJdgYEB3q+QSUJDeZEBEfvswd2qE55e0PJebFrpQwjjEsYOqXqJZ8+uj3vC5DnPzSjV06eTUoE2yzBN2F3RmG+dpiqV4WvWc0a+kvSFHXkiXLSUQh0aR9P2DGewTDba/nRzahjtgqIjpG6GOcyoCf9b2QQ5Y+3a8cIB7X47MKoS7ANc1d8IbFjOiA=
