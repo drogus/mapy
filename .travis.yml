@@ -1,0 +1,10 @@
+language: ruby
+rvm: 2.2.2
+
+script: ruby generate.rb < okregi.txt > okregi.geojson
+
+deploy:
+  provider: s3
+  access_key_id: $S3_ACCESS_KEY_ID
+  secret_access_key: $S3_SECRET_ACCESS_KEY
+  bucket: $S3_BUCKET
