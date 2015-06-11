@@ -31,8 +31,8 @@ def project_polygon(projection, shape)
 end
 
 projection = Projection.new(["init=epsg:2177"])
-powiats = Parallel.map(1..16, :in_threads => 32) { |idx|
-    JSON.parse(open("https://api.mojepanstwo.pl/dane/wojewodztwa/#{idx}/geojson").read)
+powiats = Parallel.map(1..379, :in_threads => 32) { |idx|
+    JSON.parse(open("https://api.mojepanstwo.pl/dane/powiaty/#{idx}/geojson").read)
 }.map { |feature|
     feature["geometry"]["coordinates"] = project_polygon(projection, feature["geometry"]["coordinates"])
     feature["properties"].merge!({
