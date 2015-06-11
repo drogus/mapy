@@ -10,7 +10,7 @@ before_script:
 - git remote set-url origin https://${GH_TOKEN}:@github.com/${TRAVIS_REPO_SLUG}.git
 after_success:
 - git fetch origin gh-pages
-- git reset --hard origin/gh-pages
+- git reset --hard FETCH_HEAD
 - git add okręgi.geojson
 - git commit -m "Aktualizacja okręgi.geojson"
 - git push origin HEAD:gh-pages
