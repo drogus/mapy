@@ -1,7 +1,8 @@
 language: ruby
 rvm: 2.2.2
 
-script: ruby generate.rb < okregi.txt > okregi.geojson
+before_script: mkdir output
+script: ruby generate.rb < okregi.txt > output/okregi.geojson
 
 sudo: false
 
@@ -10,3 +11,5 @@ deploy:
   access_key_id: $S3_ACCESS_KEY_ID
   secret_access_key: $S3_SECRET_ACCESS_KEY
   bucket: $S3_BUCKET
+  skip_cleanup: true
+  local_dir: output
