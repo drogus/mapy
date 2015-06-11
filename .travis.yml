@@ -7,9 +7,10 @@ branches:
 before_script:
 - git config user.email "travis@travis-ci.org"
 - git config user.name "Travis CI"
-- git remote set-url --push origin https://${GH_TOKEN}:@github.com/${TRAVIS_REPO_SLUG}.git
-- git reset --hard origin/gh-pages
+- git remote set-url origin https://${GH_TOKEN}:@github.com/${TRAVIS_REPO_SLUG}.git
 after_success:
+- git fetch origin gh-pages
+- git reset --hard origin/gh-pages
 - git add okręgi.geojson
 - git commit -m "Aktualizacja okręgi.geojson"
 - git push origin HEAD:gh-pages
