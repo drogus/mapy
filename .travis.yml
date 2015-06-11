@@ -1,6 +1,6 @@
 language: ruby
 rvm: 2.2.2
-script: git show HEAD:okręgi.txt | ruby generate.rb > okregi.geojson
+script: ruby generate.rb < okręgi.txt > okregi.geojson
 branches:
   only:
   - master
